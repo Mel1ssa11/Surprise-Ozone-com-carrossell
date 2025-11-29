@@ -4,4 +4,6 @@
 <img width="1366" height="768" alt="Captura de tela 2025-11-28 230351" src="https://github.com/user-attachments/assets/a2c726a5-7b6b-48fd-97ee-229b6fff9dd9" />
 <img width="1366" height="768" alt="Captura de tela 2025-11-28 230408" src="https://github.com/user-attachments/assets/d8e7ac08-1411-4ed5-8962-e3acaf19ffb9" />
 
+https://github.com/user-attachments/assets/60766741-742c-495f-8e4d-2866a56919af
+
 
