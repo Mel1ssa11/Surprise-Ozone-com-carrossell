@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Surprise Ozone - Serviços e Contato</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Serviços e Contato</h1>
+    <nav>
+      <a href="index.html">Início</a> |
+      <a href="pagina2.html">Serviços e Contato</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Tratamentos Disponíveis</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tratamento</th>
+            <th>Duração</th>
+            <th>Finalidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ozonioterapia Sistêmica</td>
+            <td>40 minutos</td>
+            <td>Fortalecimento imunológico</td>
+          </tr>
+
+          <tr>
+            <td>Aplicação Local</td>
+            <td>30 minutos</td>
+            <td>Regeneração tecidual</td>
+          </tr>
+
+          <tr>
+            <td>Estética Facial</td>
+            <td>50 minutos</td>
+            <td>Rejuvenescimento</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Agende sua Sessão</h2>
+
+
+      <form action="#" method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="0" required>
+
+        <label for="senha">Senha para acesso:</label>
+        <input type="password" id="senha" name="senha">
+
+        <label for="data">Data preferencial:</label>
+        <input type="date" id="data" name="data">
+
+        <label for="horario">Horário preferencial:</label>
+        <input type="time" id="horario" name="horario">
+
+        <label for="arquivo">Anexe exames (opcional):</label>
+        <input type="file" id="arquivo" name="arquivo">
+
+        <label for="tratamento">Tratamento de interesse:</label>
+        <select id="tratamento" name="tratamento">
+          <option value="sistemica">Sistêmica</option>
+          <option value="local">Local</option>
+          <option value="estetica">Estética</option>
+        </select>
+
+        <fieldset>
+          <legend>Você já fez ozonioterapia?</legend>
+
+          <label>
+            <input type="radio" name="experiencia" value="sim">
+            Sim
+          </label>
+
+          <label>
+            <input type="radio" name="experiencia" value="nao">
+            Não
+          </label>
+        </fieldset>
+
+        <label class="checkbox-label">
+          <input type="checkbox" id="consentimento" name="consentimento" required>
+          Concordo com o uso dos meus dados para agendamento
+        </label>
+
+        <label for="mensagem">Mensagem adicional:</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <input type="submit" value="Agendar">
+        <button type="reset">Limpar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Informações de Contato</h2>
+      <address>
+        Email: <a href="mailto:surpriseozone@e-mail.com">surpriseozone@e-mail.com</a><br>
+        WhatsApp: +55 11 93209-4579<br>
+        Localização: 123 Anywhere St., Any City<br>
+        Website oficial: <a href="http://www.surpriseozone.com.br">www.surpriseozone.com.br</a><br>
+        CEO: <strong>Melissa Martins dos Santos</strong>
+      </address>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>© 2025 Surprise Ozone | <a href="index.html">Voltar ao Início</a></p>
+  </footer>
+
+</body>
+</html>
